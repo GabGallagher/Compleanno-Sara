@@ -60,9 +60,18 @@
     <div id="gift">
       <h2>🎉 Buon Compleanno! 🎉</h2>
       <p>Ecco il tuo regalo: sei speciale! 💖</p>
-      <img src="./23e6e3a8-3ae8-46f3-9643-9795d697ba74.jpeg" alt="Regalo" style="border-radius:10px;">
+      <img src="./23e6e3a8-3ae8-46f3-9643-9795d697ba74.jpeg" alt="Regalo" class ="regalo" style="border-radius:10px;">
+        .regalo {
+  max-width: 100%;  /* non oltre la larghezza del contenitore */
+  height: auto;     /* altezza proporzionale */
+  display: block;   /* elimina piccoli spazi sotto l'immagine */
+  margin: 0 auto;   /* centra l'immagine */
+}
     </div>
   </div>
+
+
+
 
   <script>
     function checkPassword() {
